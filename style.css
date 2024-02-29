@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --navcolor:#ff9fdd;
+}
+body{
+    overflow-x: hidden;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Urbanist", sans-serif;
+}
+.urban{
+    font-family: "Urbanist", sans-serif;
+}
+.navbutton{
+    border:  solid var(--navcolor);
+    color: var(--navcolor);
+}
+.mx-8{
+    margin: 0px 10rem;
+}
+.buttonhero{
+    color: white;
+    background-color: #fe54c1;
+    border: none;
+}
+.grow{
+    background-color: #F6FBFF;
+}
+.foot{
+    background-color: #00252E;
+}
+.icon{
+    margin-right: 10px;
+}
+.mr-20{
+    margin-right: 20px;
+}
