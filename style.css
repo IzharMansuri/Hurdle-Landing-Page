@@ -40,6 +40,8 @@ background-color: #fe54c1;
     color: #fe54c1;
     cursor: pointer;
     border: 2px solid #fe54c1;
+}input{
+    width: 50%;
 }
 .grow{
     background-color: #F6FBFF;
@@ -63,7 +65,9 @@ background-color: #fe54c1;
         width: 150px;
     }
     input{
-        height: 1.5rem;
+        height: 2rem;
+        width: 67%;
         outline: #fe54c1;
+        margin: 0px 50px !important;
     }
 }
