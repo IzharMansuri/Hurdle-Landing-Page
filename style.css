@@ -17,8 +17,15 @@ body{
     font-family: "Urbanist", sans-serif;
 }
 .navbutton{
+    padding: 10px 20px;
     border:  solid var(--navcolor);
+    background-color: white;
     color: var(--navcolor);
+}
+.navbutton:hover{
+color: white;
+cursor: pointer;
+background-color: #fe54c1;
 }
 .mx-8{
     margin: 0px 10rem;
@@ -27,6 +34,12 @@ body{
     color: white;
     background-color: #fe54c1;
     border: none;
+}
+.buttonhero:hover{
+    background-color: white;
+    color: #fe54c1;
+    cursor: pointer;
+    border: 2px solid #fe54c1;
 }
 .grow{
     background-color: #F6FBFF;
@@ -39,4 +52,18 @@ body{
 }
 .mr-20{
     margin-right: 20px;
+}
+
+@media only screen and (max-width: 400px){
+    .navbutton{
+        font-size: 14px !important;
+        padding: 5px 8px;
+    }
+    .logo{
+        width: 150px;
+    }
+    input{
+        height: 1.5rem;
+        outline: #fe54c1;
+    }
 }
